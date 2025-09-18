@@ -21,7 +21,7 @@ function App() {
         return;
       }
     }
-    alert("Repositório não encontrado ou já adicionado");
+    window.alert("Repositório não encontrado ou já adicionado");
   };
 
   const handleRemoveRepo = (id) => {
